@@ -2,12 +2,12 @@
 using namespace std;
 
 int main() {
-    string S, X;
-    cin >> S >> X;
-    cout << S.length() << " " << X.length() << endl;
+    string S, T;
+    cin >> S >> T;
+    cout << S.length() << " " << T.length() << endl;
 
     
-    cout << S + " " + X << endl;
+    cout << S + " " + T << endl;
 
     return 0;
 }
