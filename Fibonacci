@@ -1,0 +1,17 @@
+#include<iostream>
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int i, N;
+    long long int P[100];
+    cin >> N;
+    P[1] = 0;
+    P[2] = 1;
+    for(i = 3; i <= N; i++)
+    {
+        P[i] = P[i - 1] + P[i - 2];
+    }
+    cout << P[N] << " ";
+    return 0;
+}
